@@ -1,0 +1,55 @@
+.myModal{
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.5);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   pointer-events: none;
+   opacity:0;
+   transition: 0.6s all;
+   cursor:pointer;
+   z-index: 50;
+
+}
+
+.myModal.active{
+   pointer-events: all;
+   opacity:1;
+}
+
+
+
+.myModalContent{
+   background: white;
+   padding:30px 15px;
+   border-radius: 15px;
+   /* min-height: 320px; */
+   width: 500px;
+   transform: scale(0.5);
+   transition: 0.6s all;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor:auto;
+   position:relative;
+}
+
+.close{
+    position:absolute;
+   right: 0;
+   top: -40px;
+   cursor: pointer;
+   font-size: 35px;
+   color:#107e3a;
+   z-index: 0;
+}
+
+  .myModalContent.active{
+   transform: scale(1);
+  }
+
+

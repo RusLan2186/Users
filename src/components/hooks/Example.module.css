@@ -1,0 +1,47 @@
+
+.wrapper{
+   margin-bottom: 50px;
+   display: flex;
+   gap: 15px;
+}
+
+.one{
+   color:red;
+}
+
+.item__one{
+   background-color:red;
+   
+   }
+   
+   .item__two{
+     background-color:green;
+   }
+   
+   .item__three{
+     background-color:rgb(202, 33, 188);
+   }
+
+
+   nav{
+      margin-bottom: 50px;
+   }
+
+   .list{
+     display: none;
+   }
+
+   .active{
+      display: block;
+      
+   }
+.title{
+   font-size:30px;
+   cursor:pointer;
+}
+
+.red{
+   color:red;
+   font-size: 30px;
+   cursor:pointer;
+}
